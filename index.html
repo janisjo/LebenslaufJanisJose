@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <!-- Google Fonts Verbindung-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- -||- -->
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tagesschrift&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Einbindung der Schriftart -->
+
+    <link rel="stylesheet" href="style.css" />
+    <!-- css-Stylesheet link -->
+  </head>
+
+  <body>
+    <div id="lebenslauf">
+      <!-- Hauptcontainer -->
+      <h1 class="titel">Janis Jose</h1>
+      <!-- Name -->
+      <h2 class="untertitel">WI/MT Student</h2>
+      <!-- Beschreibung -->
+
+      <hr />
+      <!-- Trennbalken -->
+
+      <div id="navigationsmenü" class="abschnitt">
+        <!-- Navigationsklasse -->
+        <h2>Navigationsmenü</h2>
+        <ul>
+          <li><a href="#stammdaten">Anschrift</a></li>
+          <!-- href für die einzelnen Abschnitte im HTML-Dok -->
+          <li><a href="#berufserfahrung">Berufserfahrung</a></li>
+          <li><a href="#ausbildung">Ausbildung</a></li>
+          <li><a href="#kenntnisse">Kenntnisse und Fähigkeiten</a></li>
+          <li><a href="#kontakt">Kontakt</a></li>
+        </ul>
+      </div>
+
+      <hr />
+      <!-- Trennbalken -->
+
+      <div id="stammdaten" class="abschnitt">
+        <!-- Klasse um sowohl Bild als auch Anschriftsdaten zu binden -->
+        <h2>Anschrift</h2>
+        <table>
+          <td class="left">
+            <!-- Linke Zelle für Profilbild -->
+            <img
+              src="SpongebobPic.jpg"
+              alt="Profilbild von Janis Jose"
+              width="200px"
+            />
+          </td>
+
+          <td class="right">
+            <!-- Rechte Zelle für Kontaktdaten -->
+            <div id="stammdaten" class="stammdaten">
+              <table>
+                <tr>
+                  <td><strong>Anschrift:</strong></td>
+                  <td>Stuttgarter Straße 39, 75365 Calw</td>
+                </tr>
+
+                <tr>
+                  <td><strong>E-Mail:</strong></td>
+                  <td>
+                    <a href="mailto: josejani@hs-pforzheim.de"
+                      >josejani@hs-pforzheim.de</a
+                    >
+                  </td>
+                </tr>
+
+                <tr>
+                  <td><strong>Telefon:</strong></td>
+                  <td>+49 160 1739061</td>
+                </tr>
+
+                <tr>
+                  <td><strong>XING</strong></td>
+                  <td><a href="https://www.xing.com/">Xing.de</a></td>
+                </tr>
+
+                <tr>
+                  <td><strong>LinkedIn</strong></td>
+                  <td><a href="https://www.LinkedIn.com/">LinkedIn.com</a></td>
+                </tr>
+              </table>
+            </div>
+          </td>
+        </table>
+      </div>
+
+      <hr />
+      <!-- Trennbalken -->
+
+      <div id="berufserfahrung" class="abschnitt">
+        <!-- Berufserfahrung Abschnitt -->
+        <h2>Berufserfahrung</h2>
+        <table>
+          <tr>
+            <td class="left">03/2024 - 02/2025</td>
+            <!-- Linke Zelle fürs Datum -->
+            <td class="right">
+              <!-- Rechte Zelle für die Jobbeschreibung -->
+              <strong>Barkeeper</strong>
+              <br />Bistro Alcapone, 75365 Calw
+              <ul>
+                <!-- Liste für Stichpunkte -->
+                <li>Barkeeper</li>
+                <li>Service</li>
+                <li>DJ</li>
+              </ul>
+            </td>
+          </tr>
+
+          <tr class="platzhalter">
+            <td colspan="2"></td>
+          </tr>
+          <!-- Leerzeile -->
+
+          <tr>
+            <td class="left">08/2022 - 09/2023</td>
+            <td class="right">
+              <strong>FSJ</strong>
+              <br />Deutsches-Rotes Kreuz KV Calw e.V., 75365 Calw
+              <ul>
+                <li>Essen auf Räder (Menüservice)</li>
+                <li>Fahrdienste für Behinderte und Senioren</li>
+                <li>Hausnotruf</li>
+              </ul>
+            </td>
+          </tr>
+        </table>
+      </div>
+
+      <hr />
+      <!-- Trennbalken -->
+
+      <div id="ausbildung" class="abschnitt">
+        <!-- Ausbildungs Abschnitt-->
+        <h2>Ausbildung</h2>
+        <table>
+          <tr>
+            <td class="left">03/2025 - jetzt</td>
+            <!-- Linke Zelle wieder für Datum-->
+            <td class="right">
+              <!-- Rechte Zelle Beschreibung-->
+              <strong>Bachelor of Science: Wirtschaftsingenieurwesen</strong> an
+              der <strong> Hochschule Pforzheim</strong> <br />Schwerpunkt:
+              Management und Technik
+            </td>
+          </tr>
+
+          <tr class="platzhalter">
+            <td colspan="5"></td>
+          </tr>
+
+          <tr>
+            <td class="left">10/2023 - 02/2025</td>
+            <td class="right">
+              <strong>Bachelor of Science: Wirtschaftsinformatik</strong> an der
+              <strong> Hochschule für Technik Stuttgart</strong> <br />
+              Dauer: 3 Semester
+            </td>
+          </tr>
+
+          <tr class="platzhalter">
+            <td colspan="5"></td>
+          </tr>
+
+          <tr>
+            <td class="left">09/2013 - 07/2022</td>
+            <td class="right">
+              <strong>Abitur</strong> am
+              <strong> Herrmann-Hesse Gymnasium Calw</strong> <br />
+              Abitur-Note: 2,2
+            </td>
+          </tr>
+        </table>
+      </div>
+
+      <hr />
+      <!-- Trennbalken -->
+
+      <div id="kenntnisse" class="abschnitt">
+        <!-- Fähigkeiten und Kenntnisse Abschnitt -->
+        <h2>Kenntnisse und Fähigkeiten</h2>
+
+        <table>
+          <tr>
+            <td class="left"><strong>Sprachen:</strong></td>
+            <td class="right">
+              <ul>
+                <li>Deutsch</li>
+                <li>Englisch C1</li>
+                <li>Französisch B1</li>
+              </ul>
+            </td>
+          </tr>
+
+          <tr class="platzhalter">
+            <td colspan="5"></td>
+          </tr>
+
+          <tr>
+            <td class="left"><strong>IT-Kenntnisse</strong></td>
+            <td class="right">
+              <ul>
+                <li>Java</li>
+                <li>Datenbanken</li>
+              </ul>
+            </td>
+          </tr>
+
+          <tr class="platzhalter">
+            <td colspan="5"></td>
+          </tr>
+
+          <tr>
+            <td class="left"><strong>Soft-Skills</strong></td>
+            <td class="right">
+              <ul>
+                <li>Teamfähigkeit</li>
+                <li>Planungs- und Organisationsfähigkeit</li>
+              </ul>
+            </td>
+          </tr>
+        </table>
+      </div>
+
+      <hr />
+      <!-- Trennbalken -->
+
+      <div id="kontakt" class="abschnitt">
+        <!-- Kontakt Abschnitt-->
+        <footer>
+          <h2><strong>Interesse?</strong></h2>
+          <strong>Dann kontaktieren Sie mich:</strong>
+
+          <br />
+          <!-- Zeilentrenner -->
+
+          <label for="name">Name:</label>
+          <!-- labels mit- -->
+          <input type="text" id="name" name="name" size="15" />
+          <!-- -Inputfunktion -->
+
+          <label for="email">E-Mail:</label>
+          <input type="email" id="email" name="email" size="15" />
+
+          <label for="nachricht">Nachricht:</label>
+          <input type="nachricht" id="nachricht" name="nachricht" size="15" />
+
+          <button type="button">Senden</button>
+          <!-- Knopf ohne Funktion bis jetzt -->
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>

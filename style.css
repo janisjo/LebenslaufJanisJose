@@ -1,0 +1,79 @@
+/*Standard-Schriftart für die gesamte Seite*/
+body {
+  font-family: "Tagesschrift";
+}
+
+/*Alternative Klassendefinition für die Schriftart*/
+/*.tagesschrift-regular {
+  font-family: "Tagesschrift", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}*/
+
+/*Attribute für die Hauptklasse der HTML-Datei*/
+#lebenslauf {
+  max-width: 800px; /*Max Breite*/
+  margin: 0 auto; /*Zentriert den Container*/
+  padding: 20px 30px 60px 30px; /*Innenabstand zu jeder Richtung hin*/
+  box-shadow: 0 0 4px #000000;
+}
+
+/*Standard Tabelle*/
+table {
+  width: 100%; /* Max Breite */
+  padding-bottom: 10px; /* Abstand nach Unten oder zu anderen Elementen */
+}
+
+/* Linke Tabellenspalte*/
+td.left {
+  width: 40%; /*Breite ins.*/
+}
+
+/*Rechte Tabellenspalte*/
+td.right {
+  width: 60%; /*Breite ins.*/
+}
+
+/*Hintergrundfarbe für den Container (Anschrift) und Abstand nach unten*/
+#stammdaten {
+  background-color: #e4e6e7;
+  margin-bottom: 30px;
+}
+
+/*Allgemeine Formatierung*/
+div.abschnitt {
+  padding: 0px 50px 0px 50px; /* Innenabstand nach links und rechts*/
+}
+
+/*Listenabstand Anpassung*/
+div.abschnitt ul {
+  margin: 5px 0 0 0; /*Außenabstand nach oben*/
+}
+
+/*Abschnitt Trennlinie*/
+hr {
+  border: none; /*Keine Standard-Linie*/
+  height: 2px; /*Dicke der Linie*/
+  background-color: #999; /*Farbe*/
+  margin: 30px 0; /*Abstand der Linie*/
+}
+
+/*Gestaltung vom Namen*/
+.titel {
+  margin-top: 30px; /*Abstand oben*/
+  margin-bottom: 10px; /*Abstand unten*/
+  text-align: center; /*Zentrierter Text*/
+}
+
+/*Gestaltung Beschreibung*/
+.untertitel {
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: normal; /*Normale Schriftstärke*/
+  font-size: 1.2em; /*Vergrößerte Schrift*/
+}
+
+/*Leerzeile*/
+tr.platzhalter {
+  height: 20px; /*Größe des Abstands*/
+}
